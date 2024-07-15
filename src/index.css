@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: linear-gradient(to right, #549de5, #dbc293);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.weather-app {
+    width: 700px;
+    height: 100%;
+    background-color: linear-gradient(to right, #549de5, #dbc293);
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 20px;
+    box-shadow: -3rem 1rem 6rem rgba(0, 0, 0, 0.2);
+    position: relative;
+    /* overflow: hidden; */
+}
+
+@media (min-width: 650px) {
+    .container {
+        height: 100vh;
+    }
+}

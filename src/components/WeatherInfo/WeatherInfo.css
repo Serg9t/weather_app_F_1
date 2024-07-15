@@ -1,0 +1,70 @@
+.weather-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px
+}
+
+.city {
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(32, 83, 117);
+}
+
+.weather-basic {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.weather-image {
+    width: 150px;
+}
+
+.weather-temp {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(23, 62, 98);
+}
+
+.weather-date {
+
+    font-size: 1rem;
+    color: #484569;
+}
+
+.weather-data {
+    width: 100%;
+    display: flex;
+    column-gap: 2rem;
+    padding: 0 2rem;
+}
+
+.weather-data > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.data-name {
+    font-size: 1.2rem;
+    color: #605d80;
+}
+
+.weather-data i {
+    font-size: 2rem;
+    color: #1b1919;
+    text-shadow: -0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.data {
+    font-size: 1.3rem;
+    color: #2f2e57;
+}

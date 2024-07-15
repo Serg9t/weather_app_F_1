@@ -1,0 +1,25 @@
+.weather-list {
+    margin-top: 50px;
+}
+
+.title-5 {
+    color: rgb(22, 103, 103);
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
